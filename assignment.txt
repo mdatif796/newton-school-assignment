@@ -1,0 +1,22 @@
+Assignment
+Your task is to fix the failing test cases in the boilerplate folder. The boilerplate folder contains a copy of the my-app folder with the useEffect hook removed. Your goal is to restore the functionality of the app and make sure that the test cases pass.
+
+To complete this assignment, you will need to:
+
+Add the useEffect hook to fetch the data from the API and update the component state.
+Make sure that the data is displayed correctly on the screen.
+Make sure that the test cases in cypress/e2e/useEffect_test.cy.js pass.
+To get started, navigate to the boilerplate folder and run the following commands:
+
+cd boilerplate
+npm install
+npm start
+
+After running the npm start command in the boilerplate folder, you can open a new terminal window and navigate to the same folder. From there, you can run the Cypress test runner using the following command:
+
+npm run cypress:open
+This will open the Cypress test runner, where you can select the test file you want to run and execute the test cases. You should see that the test cases are failing because the data is not being fetched and displayed on the screen.
+
+To fix the failing test cases, you will need to add the useEffect hook to fetch the data and update the component state. 
+
+Once you have added the useEffect hook and made sure that the data is being displayed correctly on the screen, you can re-run the test cases using the Cypress test runner. You should see that the test cases are passing now.
